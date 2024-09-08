@@ -17,6 +17,7 @@
 
 Game game;
 LocalPlayer player;
+Entities entities;
 
 HANDLE Memory::processHandle = OpenProcess(PROCESS_ALL_ACCESS, FALSE, CS2::procID);
 
@@ -191,8 +192,9 @@ INT APIENTRY WinMain(HINSTANCE instance, HINSTANCE, PSTR, INT cmd_show)
 	
 	while (Flags::isRunning)
 	{
-		player.Initialize();
-		game.Initialize();
+		player.UpdateLocalPlayer();
+		entities.UpdateEntities();
+		game.UpdateGameVars();
 
 		MSG msg;
 		while (PeekMessage(&msg, nullptr, 0U, 0U, PM_REMOVE))
