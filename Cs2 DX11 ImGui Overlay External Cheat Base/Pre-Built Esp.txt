@@ -1,6 +1,0 @@
-Bone Esp
-Name Esp
-Box Esp
-Line Esp
-Distance Esp
-Health Esp
