@@ -32,19 +32,19 @@ namespace Offsets
     inline int dwForceJump = 0x181B0D0;
 
     // offsets;
-    inline int dwEntityList = 0x19BAC58; // uintptr_t
-    inline int dwLocalPlayerPawn = 0x18220C8; // uintptr_t
-    inline int dwLocalPlayerController = 0x1A0A5F8; // uintptr_t
-    inline int dwViewAngles = 0x1A26BE0; // uintptr_t
-    inline int dwViewMatrix = 0x1A1CD70; // uintptr_t
-    inline int dwSensitivity = 0x1A19398; // uintptr_t
+    inline int dwEntityList = 0x19BDCF0; // uintptr_t
+    inline int dwLocalPlayerPawn = 0x1825158; // uintptr_t
+    inline int dwLocalPlayerController = 0x1A0D918; // uintptr_t
+    inline int dwViewAngles = 0x1A29DD0; // uintptr_t
+    inline int dwViewMatrix = 0x1A1FF70; // uintptr_t
+    inline int dwSensitivity = 0x1A1C598; // uintptr_t
     inline int dwSensitivity_sensitivity = 0x40; // uintptr_t
-    inline int dwGameRules = 0x1A18678; // uintptr_t
+    inline int dwGameRules = 0x1A1B878; // uintptr_t
     inline int dwGameTypes = 0x1A31B0; // uintptr_t
     inline int dwGameTypes_mapName = 0x120; // uintptr_t
-    inline int dwPlantedC4 = 0x1A20EB8; // uintptr_t
-    inline int dwGlobalVars = 0x1815F60; // uintptr_t
-    inline int dwWeaponC4 = 0x19BDD80;  // uintptr_t
+    inline int dwPlantedC4 = 0x1A240A8; // uintptr_t
+    inline int dwGlobalVars = 0x1819020; // uintptr_t
+    inline int dwWeaponC4 = 0x19C0F80;  // uintptr_t
 
 
     // client_dll;   
