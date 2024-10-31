@@ -32,11 +32,11 @@ namespace Offsets
     inline int dwForceJump = 0x181B0D0;
 
     // offsets;
-    inline int dwEntityList = 0x19BDCF0; // uintptr_t
-    inline int dwLocalPlayerPawn = 0x1825158; // uintptr_t
-    inline int dwLocalPlayerController = 0x1A0D918; // uintptr_t
+    inline int dwEntityList = 0x19D1A98; // uintptr_t
+    inline int dwLocalPlayerPawn = 0x1836BB8; // uintptr_t
+    inline int dwLocalPlayerController = 0x1A219E0; // uintptr_t
     inline int dwViewAngles = 0x1A29DD0; // uintptr_t
-    inline int dwViewMatrix = 0x1A1FF70; // uintptr_t
+    inline int dwViewMatrix = 0x1A33E30; // uintptr_t
     inline int dwSensitivity = 0x1A1C598; // uintptr_t
     inline int dwSensitivity_sensitivity = 0x40; // uintptr_t
     inline int dwGameRules = 0x1A1B878; // uintptr_t
@@ -56,7 +56,7 @@ namespace Offsets
     inline int m_iIDEntIndex = 0x1450; // CEntityIndex
     inline int m_iShotsFired = 0x23D4; // int32
     inline int m_aimPunchAngle = 0x1574; // QAngle
-    inline int m_vOldOrigin = 0x131C; // Vector
+    inline int m_vOldOrigin = 0x1324; // Vector
     inline int m_vecViewOffset = 0xCA8; // CNetworkViewOffsetVector
     inline int m_Glow = 0xBF8; // CGlowProperty
     inline int m_glowColorOverride = 0x40; // Color
