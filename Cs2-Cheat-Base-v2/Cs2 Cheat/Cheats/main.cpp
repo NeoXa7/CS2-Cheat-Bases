@@ -6,7 +6,6 @@
 #include <Overlay/Overlay.hpp>
 #include <Functions/Console.hpp>
 #include <Memory/Memory.hpp>
-#include <Esp.hpp>
 
 HANDLE Memory::ProcessHandle = NULL;
 
@@ -60,7 +59,6 @@ INT APIENTRY WinMain(HINSTANCE instance, HINSTANCE, PSTR, INT cmd_show)
             game.UpdateGameVars();
 
             
-            ANTIFLASH();
             RenderMenu(); // Rendering the Menu;
             std::this_thread::sleep_for(std::chrono::milliseconds(1)); // Sleep for 1 ms		
 
